@@ -13,7 +13,7 @@ from main import approximated_time
 from datetime import datetime
 
 # now 2021-10-10 13:24:18.427468
-input_datetime = datetime(2019, 10, 10, 13, 24, 29, 427468)
+input_datetime = datetime(2021, 10, 10, 13, 24, 29, 427468)
 
 approximated_time(input_datetime, 'en')
 # 11 seconds ago
