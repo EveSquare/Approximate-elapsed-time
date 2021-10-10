@@ -33,11 +33,11 @@ class LangData(NamedTuple):
 en = LangData(
   'seconds',
   'minutes',
-  'hour',
-  'month',
-  'day',
-  'week',
-  'year',
+  'hours',
+  'months',
+  'days',
+  'weeks',
+  'years',
   'ago',
   UTC,
 )
