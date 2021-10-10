@@ -30,7 +30,6 @@ approximated_time(now, 'en')
   1　week ago
   .
 */
-
 ```
 
 ## JP - ja
@@ -48,5 +47,16 @@ approximated_time(now, 'ja')
   .
   1　週間前
 */
+```
 
+## options
+The time zone is automatically set for each language, but you can also set it manually.
+```python
+approximated_time(now, 'en', timezone='JST')
+```
+
+You can specify the output format. From top to bottom are time, units, and 'ago'.
+```python
+approximated_time(now, 'en', format='{}-{}-{}')
+# 11-seconds-ago
 ```
