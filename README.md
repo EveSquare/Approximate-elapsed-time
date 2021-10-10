@@ -13,9 +13,9 @@ from main import approximated_time
 from datetime import datetime
 
 # now 2021-10-10 13:24:18.427468
-now = datetime.now()
+input_datetime = datetime(2019, 10, 10, 13, 24, 29, 427468)
 
-approximated_time(now, 'en')
+approximated_time(input_datetime, 'en')
 # 11 seconds ago
 
 #Outputs the approximate time for each elapsed time.
@@ -34,7 +34,7 @@ approximated_time(now, 'en')
 
 ## JP - ja
 ```python
-approximated_time(now, 'ja')
+approximated_time(input_datetime, 'ja')
 # 11 秒前
 
 #経過時間ごとにおおよその時間を出力します。
@@ -52,11 +52,11 @@ approximated_time(now, 'ja')
 ## options
 The time zone is automatically set for each language, but you can also set it manually.
 ```python
-approximated_time(now, 'en', timezone='JST')
+approximated_time(input_datetime, 'en', timezone='JST')
 ```
 
 You can specify the output format. From top to bottom are time, units, and 'ago'.
 ```python
-approximated_time(now, 'en', format='{}-{}-{}')
+approximated_time(input_datetime, 'en', format='{}-{}-{}')
 # 11-seconds-ago
 ```
