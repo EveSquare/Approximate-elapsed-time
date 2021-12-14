@@ -52,4 +52,4 @@ def approximated_time(datetime: dt, lang:str, timezone:str="", format:str="{} {}
 
 
 if __name__ == '__main__':
-  print(approximated_time(dt(2021, 10, 10, 12, 38, 39, 32734), 'ja'))
+  print(approximated_time(dt(2021, 10, 10, 13, 16, 35, 308414), 'ja'))
