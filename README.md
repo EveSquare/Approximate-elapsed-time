@@ -22,12 +22,12 @@ approximated_time(input_datetime, 'en')
 /*
   11 seconds ago
   .
-  8 hour ago
+  8 hours ago
   .
-  1 day ago
+  1 days ago
   .
   .
-  1　week ago
+  1　weeks ago
   .
 */
 ```
